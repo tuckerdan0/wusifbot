@@ -1,0 +1,70 @@
+
+<!-- saved from url=(0021)http://wusif.in/there -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>How 2 Wusif</title>
+
+
+<link rel="stylesheet" type="text/css" href="./How 2 Wusif_files/bootstrap.css">
+
+<style type="text/css"></style></head>
+
+<body>
+
+<div>
+<h2>How to Wusif</h2>
+<p>All of these commands require "Owner" access. Tweet a <a href="http://twitter.wildeone.tv/">aWildeOne</a> if you have any questions, comments or concerns.<br> (Wusif can't be controlled. All concerns will be laughed at)</p>
+
+<ul>
+   <li>"whm" (WusifHelpMe) : This gives a link to this page. If you're here, you know that</li>
+   <li>!help: post the whole of the orders available</li>
+   <li>!version: post the version of the bot</li>
+   <li>!quit: leave the program. DO NOT USE WITHOUT SAVING!</li>
+   <li>!save: safeguard the dictionary and the files of configuration</li>
+   <li>!words: post the number of words and sentences known</li>
+   <li>!known [Word]: post if the word [Word] is known and numbers it sentences</li>
+       in which it appears
+   <li>!unlearn [Word]: erase the word of the dictionary</li>
+   <li>!purge: Post the number of words which appear only in one context</li>
+   <li>!purge [a number]: erase [a number] words of the dictionary, among the least frequent words</li>
+   <li>!replace [word1] [word2]: replace all the events of [word1] by [word2]</li>
+   <li>!censor [Word]: censure the word [Word]</li>
+   <li>!uncensor [Word]: withdraw [Word] list of censure</li>
+   <li>!learning [on|off]: authorize or not the training of new words</li>
+   <li>!alias: List all alias what exists</li>
+   <li>!alias [alias]: List all the words which refer to {alias]</li>
+   <li>!alias [alias] [word1] [wordN]: create alias which replaces all the events of [Word] by [alias]</li>
+   <li>!shutup: prevent the bot from speaking on the channels</li>
+   <li>!wakeup: cancel one! shutup</li>
+   <li>!replyrate [a number]: probability that the bot answers a message diffused on the channel</li>
+   <li>!talk [nick] [message]: send the message [message] with [nick] on behalf of the bot</li>
+   <li>!join [channel]: connect the bot to [channel]</li>
+   <li>!leaves/part [channel]: fact of leaving the channel [channel]</li>
+   <li>!chans: list the channels where the bot is connected</li>
+   <li>!ignore of [nick]: ignore nick</li>
+   <li>!uningore [nick]: withdraw nick list of the people to be ignored</li>
+</ul>
+<p>
+To teach wusif a response, use the !learn or !teach command with the trigger and response seperated by an |. Spaces don't matter, but the length is limited to the standard IRC message line (around 500 characters). Multiple responses in the same line is also supported and will be picked at random based on the amount of responses saved for a trigger. Triggers are searched by closest matches so single words or short triggers work better, but words can be searched within longer triggers:
+</p>
+<li>!teach This is a trigger | And this is a response!</li>
+<li>!learn Hey There!|Hey to you too! ;) !teach Trigger | Response 1 | Response 2 | Oh iy</li>
+
+To see how many responses match a phrase, use the !find command followed by the phrase:
+<li>!find Joe</li>
+<li>!find Trixar_za is God</li>
+
+To make wusif forget a learned response use the !forget command followed by the phrase:
+<li>!forget Joe</li>
+<li>!forget Trixar_za is dumb</li>
+
+To see how many responses wusif has learned so far you can use the !responses command:
+<li>!responses</li>
+
+You can also teach wusif to respond with an action instead of a message by prefixing plus (+) to the response:
+<li>!teach I Love you!|+hugs #nick</li>
+
+</div>
+
+
+
+</body></html>
